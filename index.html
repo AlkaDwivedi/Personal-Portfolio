@@ -4,19 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Alka Dwivedi | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
         <div class="container">
-            <div class="logo">
-                <h1>Alka Dwivedi
-                </h1>
+            <h1>Alka Dwivedi</h1>
+
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
+
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -28,6 +33,7 @@
         </div>
     </header>
 
+    <!-- HERO -->
     <section id="hero">
         <div class="hero-content">
             <h2>Hi, I'm Alka Dwivedi</h2>
@@ -36,99 +42,178 @@
         </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
+
             <div class="about-content">
-                <img src="alka.png" alt="Alka Dwivedi
-        ">
+                <img src="alka.png" alt="Alka Dwivedi">
+
                 <div class="about-text">
-                    <p>I'm a passionate web developer with a knack for creating responsive and user-friendly websites.
-                        With a solid foundation in HTML, CSS, and JavaScript, I love bringing ideas to life in the
-                        browser.</p>
-                    <p>My journey started in [2023], and since then, I've been honing my skills in web development and
-                        design, ensuring every project is unique and tailored to the client's needs.</p>
+                    <p>
+                        I am a passionate BCA student and web developer with strong skills in
+                        HTML, CSS, JavaScript, and C++. I love creating responsive and modern websites.
+                    </p>
+
+                    <p>
+                        I focus on clean UI/UX design, performance optimization, and building
+                        user-friendly applications that work smoothly across all devices.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
+
             <div class="project-grid">
-                <div class="project-card" >
-                    <a href="https://github.com/AlkaDwivedi/Personal-Portfolio">
-                    <img src="port.png" alt="Project 1">
+
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+                    <a href="https://github.com/AlkaDwivedi/Personal-Portfolio" target="_blank">
+                        <img src="port.png" alt="Portfolio">
                     </a>
                     <div class="project-info">
                         <h3>Personal Portfolio</h3>
-                        <p>This project is made by using HTML , CSS and JAVA SCRIPT</p>
-                        
+                        <p>Responsive portfolio using HTML, CSS & JavaScript.</p>
+                        <a href="https://github.com/AlkaDwivedi/Personal-Portfolio" target="_blank">View Code</a>
                     </div>
                 </div>
-                
-                
+
+                <!-- PROJECT 2 -->
+                <div class="project-card">
+                    <a href="#" target="_blank">
+                        <img src="./Screenshot 2026-04-14 204057.png" alt="Restaurant Website">
+                    </a>
+                    <div class="project-info">
+                        <h3>Restaurant Website</h3>
+                        <p>
+                            Modern restaurant UI with menu, gallery, and reservation system.
+                            Fully responsive using Flexbox & Grid.
+                        </p>
+                        <a href="https://restaurant-web-sand.vercel.app/" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="project-card">
+                    <a href="#" target="_blank">
+                        <img src="./462057609-318c4a66-0e37-412a-ac9c-04833f59d4f8.png" alt="Real Estate Website">
+                    </a>
+                    <div class="project-info">
+                        <h3>Real Estate Website</h3>
+                        <p>
+                            Property listing website with clean UI, filters and responsive design.
+                        </p>
+                        <a href="https://real-estate-web-eta.vercel.app/" target="_blank">View Project</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5</h3>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>CSS3</h3>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-c"></i>
-                    <h3>C Programming</h3>
-                </div>
-                <div class="skill">
-                    <img src="cpluss.png">
-                    <h3>C++</h3>
-                </div>
-                <div class="skill">
-                  
-                    <img src="py.svg">
-                   
-                    <h3>Python</h3>
-                </div>
+    <!-- SKILLS -->
+   <section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
 
-                
+        <div class="skills-grid">
+
+            <!-- Programming -->
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>C, C++, JavaScript</p>
             </div>
-        </div>
-    </section>
 
+            <!-- Web -->
+            <div class="skill">
+                <i class="fas fa-globe"></i>
+                <h3>Web Technologies</h3>
+                <p>HTML5, CSS3, Responsive Design, REST API</p>
+            </div>
+
+            <!-- Database -->
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>Databases</h3>
+                <p>MySQL, SQL</p>
+            </div>
+
+            <!-- Core -->
+            <div class="skill">
+                <i class="fas fa-brain"></i>
+                <h3>Core Concepts</h3>
+                <p>DSA Basics, OOPS, DBMS, OS, CN</p>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill">
+                <i class="fas fa-tools"></i>
+                <h3>Tools</h3>
+                <p>VS Code, Git, GitHub, Vercel</p>
+            </div>
+
+            <!-- Office -->
+            <div class="skill">
+                <i class="fas fa-file-word"></i>
+                <h3>MS Office</h3>
+                <p>Word, Excel, PowerPoint</p>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill">
+                <i class="fas fa-users"></i>
+                <h3>Soft Skills</h3>
+                <p>
+                    Communication, Teamwork, Problem Solving, Adaptability,
+                    Time Management
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT -->
     <section id="contact">
         <div class="container">
             <h2>Contact</h2>
+
             <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="0ee54173-56ac-4dda-bba4-0a369f47e9e3">
-                <input type="text" placeholder="Your Name" name="Name" required >
-                <input type="email" placeholder="Your Email"  name= "Email"required>
-                <textarea placeholder="Your Message"name="Message" required></textarea>
+                <input type="hidden" name="access_key"
+                    value="0ee54173-56ac-4dda-bba4-0a369f47e9e3">
+
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Your Message" required></textarea>
+
                 <button type="submit">Send Message</button>
             </form>
+
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/alka-dwivedi-4262a9289/"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alka-dwivedi-4262a9289/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/AlkaDwivedi" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Alka Dwivedi. All rights reserved.</p>
-        </div>
+        <p>© 2026 Alka Dwivedi. All rights reserved.</p>
     </footer>
 
     <script src="app.js"></script>
-</body>
 
+</body>
 </html>
