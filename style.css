@@ -22,7 +22,7 @@ body {
 
 /* ================= HEADER ================= */
 header {
-    background: rgba(15, 23, 42, 0.7);
+    background: rgba(108, 135, 198, 0.7);
     backdrop-filter: blur(12px);
     color: #fff;
     padding: 15px 0;
@@ -63,11 +63,16 @@ header nav ul li a:hover {
     font-size: 26px;
     cursor: pointer;
 }
-
+.docenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* ================= HERO ================= */
 #hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    background: linear-gradient(rgba(237, 138, 138, 0.6), rgba(0,0,0,0.8)),
         url('hero-bg.jpg') center/cover;
     display: flex;
     align-items: center;
@@ -91,7 +96,7 @@ header nav ul li a:hover {
 .cta-btn {
     padding: 12px 25px;
     border-radius: 25px;
-    background: linear-gradient(45deg, #00A3FF, #7c3aed);
+    background: linear-gradient(45deg, #4fb0e8, #5808e4);
     color: #fff;
     text-decoration: none;
     box-shadow: 0 4px 20px rgba(0,163,255,0.4);
@@ -104,6 +109,7 @@ header nav ul li a:hover {
 /* ================= ABOUT ================= */
 #about {
     padding: 100px 0;
+     background: linear-gradient(rgba(36, 48, 74, 0.6), rgba(0,0,0,0.8))
 }
 
 .about-content {
@@ -136,7 +142,7 @@ header nav ul li a:hover {
 .project-card {
     border-radius: 15px;
     overflow: hidden;
-    background: rgba(255,255,255,0.05);
+    background: rgb(59, 61, 64);
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 30px rgba(0,0,0,0.3);
 }
@@ -153,6 +159,9 @@ header nav ul li a:hover {
 
 .project-card:hover {
     transform: translateY(-10px) scale(1.02);
+}
+.viewcode{
+    color:rgb(3, 2, 9)
 }
 
 /* ================= SKILLS ================= */
@@ -236,7 +245,53 @@ footer {
     padding: 20px;
     background: #020617;
 }
+.docenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+/* SOCIAL ICONS CONTAINER */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
 
+/* ICON STYLE */
+.social-icons a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    font-size: 26px;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+/* LINKEDIN COLOR */
+.social-icons a:nth-child(1) {
+    background: #0077b5;
+}
+
+/* GITHUB COLOR */
+.social-icons a:nth-child(2) {
+    background: #333;
+}
+
+/* HOVER EFFECT */
+.social-icons a:hover {
+    transform: scale(1.15) translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,163,255,0.6);
+}
 /* ================= RESPONSIVE ================= */
 
 /* TABLET */
